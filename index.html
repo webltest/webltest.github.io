@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="static/img/general/icons/map-32w.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/general/icons/map-76w.png">
+    <link rel="stylesheet" type="text/css" href="main/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="static/libs/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="static/libs/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="main/css/main.css">
+    <title>Главная страница
+    </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top-links">
+        <div class="wrapper">
+          <p class="header__work-time">Звоните с 9:00 до 23:00 без выходных</p>
+              <ul class="top-links header__top-links">
+                <li class="top-links__item"><a class="top-links__link" href="#">Контакты</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Цены</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">О нас</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Услуги</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Наши работы</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Вопрос-ответ</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Отзывы</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Статьи</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Новости</a></li>
+                <li class="top-links__item"><a class="top-links__link" href="#">Наши клиенты</a></li>
+              </ul>
+        </div>
+      </div>
+      <div class="header__panel-main">
+        <div class="wrapper">
+          <div class="header__logo-wrap">
+            <button class="header__opn-nav-btn toggle-navigation-btn" type="button" style="display:none;" id="toggle-navigation-btn"><span class="toggle-navigation-btn__line"></span></button><img class="header__logo logo" src="static/svg/logo.svg" alt="nutella">
+          </div>
+          <div class="header__contacts contacts">
+            <svg class="icon icon-phone contacts__icon" aria-hidden="true">
+              <use xlink:href="static/svg/symbol/sprite.svg#phone"></use>
+            </svg>
+            <ul class="contacts__list">
+              <li class="contacts__item"><a class="contacts__link" href="tel:0679998877">(067) 999 88 77</a></li>
+              <li class="contacts__item"><a class="contacts__link" href="tel:0508887766">(050) 888 77 66</a></li>
+              <li class="contacts__item"><a class="contacts__link" href="tel:0637776655">(063) 777 66 55</a></li>
+              <li class="contacts__item">
+                <button class="contacts__btn" type="button">Перезвонить мне</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header__panel-nav-main">
+        <div class="wrapper">
+              <ul class="nav-main header__nav-main">
+                <li class="nav-main__item"><a class="nav-main__link" href="#">Велосипеды
+                    <svg class="icon icon-arrow nav-main__arrow-icon nav-main__arrow-icon_hidden" aria-hidden="true">
+                      <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                  <ul class="nav-main__dropdown">
+                    <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Горные велосипеды
+                        <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                        </svg></a>
+                      <ul class="nav-main__dropdown-categories">
+                        <li class="nav-main__dropdown-categories-title subnav-title">Горные велосипеды</li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Двухподвесы
+                        <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                        </svg></a>
+                      <ul class="nav-main__dropdown-categories">
+                        <li class="nav-main__dropdown-categories-title subnav-title">Двухподвесы</li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-main__item"><a class="nav-main__link" href="#">Велоаксессуары
+                    <svg class="icon icon-arrow nav-main__arrow-icon nav-main__arrow-icon_hidden" aria-hidden="true">
+                      <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                  <ul class="nav-main__dropdown">
+                    <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Горные велосипеды
+                        <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                        </svg></a>
+                      <ul class="nav-main__dropdown-categories">
+                        <li class="nav-main__dropdown-categories-title subnav-title">Горные велосипеды</li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Двухподвесы
+                        <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                        </svg></a>
+                      <ul class="nav-main__dropdown-categories">
+                        <li class="nav-main__dropdown-categories-title subnav-title">Двухподвесы</li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-main__item"><a class="nav-main__link" href="#">Велозапчасти</a>
+                </li>
+                <li class="nav-main__item"><a class="nav-main__link" href="#">Инструменты и ремонт</a>
+                </li>
+                <li class="nav-main__item"><a class="nav-main__link" href="#">Самокаты и скейты
+                    <svg class="icon icon-arrow nav-main__arrow-icon nav-main__arrow-icon_hidden" aria-hidden="true">
+                      <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                  <ul class="nav-main__dropdown">
+                    <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Горные велосипеды
+                        <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                        </svg></a>
+                      <ul class="nav-main__dropdown-categories">
+                        <li class="nav-main__dropdown-categories-title subnav-title">Горные велосипеды</li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Двухподвесы
+                        <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                          <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                        </svg></a>
+                      <ul class="nav-main__dropdown-categories">
+                        <li class="nav-main__dropdown-categories-title subnav-title">Двухподвесы</li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+        </div>
+      </div>
+      <div class="isMobile mobile-nav-panel" style="display:none;">
+        <button class="mobile-nav-panel__close close-btn" type="button" id="navCloseBtn">
+          <svg class="icon icon-close close-btn__icon" aria-hidden="true">
+            <use xlink:href="static/svg/symbol/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav-panel__scroll">
+          <div class="mobile-nav-panel__nav-box">
+            <header class="mobile-nav-panel__header"><img class="mobile-nav-panel__logo logo" src="static/svg/logo.svg" alt="nutella"></header>
+                <ul class="nav-main mobile-nav-panel__nav-main">
+                  <li class="nav-main__item"><a class="nav-main__link" href="#">Велосипеды
+                      <svg class="icon icon-arrow nav-main__arrow-icon nav-main__arrow-icon_hidden" aria-hidden="true">
+                        <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                      </svg></a>
+                    <ul class="nav-main__dropdown">
+                      <li class="nav-main__back">
+                        <button class="nav-back-btn" type="button">
+                          <svg class="icon icon-arrow nav-back-btn__icon " aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg><span class="nav-back-btn__text">Все категории</span>
+                        </button>
+                      </li>
+                      <li class="nav-main__dropdown-item-title subnav-title">Велосипеды</li>
+                      <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Горные велосипеды
+                          <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg></a>
+                        <ul class="nav-main__dropdown-categories">
+                          <li class="nav-main__back">
+                            <button class="nav-back-btn" type="button">
+                              <svg class="icon icon-arrow nav-back-btn__icon" aria-hidden="true">
+                                <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                              </svg><span class="nav-back-btn__text">Назад</span>
+                            </button>
+                          </li>
+                          <li class="nav-main__dropdown-categories-title subnav-title">Горные велосипеды</li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Двухподвесы
+                          <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg></a>
+                        <ul class="nav-main__dropdown-categories">
+                          <li class="nav-main__back">
+                            <button class="nav-back-btn" type="button">
+                              <svg class="icon icon-arrow nav-back-btn__icon" aria-hidden="true">
+                                <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                              </svg><span class="nav-back-btn__text">Назад</span>
+                            </button>
+                          </li>
+                          <li class="nav-main__dropdown-categories-title subnav-title">Двухподвесы</li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-main__item"><a class="nav-main__link" href="#">Велоаксессуары
+                      <svg class="icon icon-arrow nav-main__arrow-icon nav-main__arrow-icon_hidden" aria-hidden="true">
+                        <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                      </svg></a>
+                    <ul class="nav-main__dropdown">
+                      <li class="nav-main__back">
+                        <button class="nav-back-btn" type="button">
+                          <svg class="icon icon-arrow nav-back-btn__icon " aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg><span class="nav-back-btn__text">Все категории</span>
+                        </button>
+                      </li>
+                      <li class="nav-main__dropdown-item-title subnav-title">Велоаксессуары</li>
+                      <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Горные велосипеды
+                          <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg></a>
+                        <ul class="nav-main__dropdown-categories">
+                          <li class="nav-main__back">
+                            <button class="nav-back-btn" type="button">
+                              <svg class="icon icon-arrow nav-back-btn__icon" aria-hidden="true">
+                                <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                              </svg><span class="nav-back-btn__text">Назад</span>
+                            </button>
+                          </li>
+                          <li class="nav-main__dropdown-categories-title subnav-title">Горные велосипеды</li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Двухподвесы
+                          <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg></a>
+                        <ul class="nav-main__dropdown-categories">
+                          <li class="nav-main__back">
+                            <button class="nav-back-btn" type="button">
+                              <svg class="icon icon-arrow nav-back-btn__icon" aria-hidden="true">
+                                <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                              </svg><span class="nav-back-btn__text">Назад</span>
+                            </button>
+                          </li>
+                          <li class="nav-main__dropdown-categories-title subnav-title">Двухподвесы</li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-main__item"><a class="nav-main__link" href="#">Велозапчасти</a>
+                  </li>
+                  <li class="nav-main__item"><a class="nav-main__link" href="#">Инструменты и ремонт</a>
+                  </li>
+                  <li class="nav-main__item"><a class="nav-main__link" href="#">Самокаты и скейты
+                      <svg class="icon icon-arrow nav-main__arrow-icon nav-main__arrow-icon_hidden" aria-hidden="true">
+                        <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                      </svg></a>
+                    <ul class="nav-main__dropdown">
+                      <li class="nav-main__back">
+                        <button class="nav-back-btn" type="button">
+                          <svg class="icon icon-arrow nav-back-btn__icon " aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg><span class="nav-back-btn__text">Все категории</span>
+                        </button>
+                      </li>
+                      <li class="nav-main__dropdown-item-title subnav-title">Самокаты и скейты</li>
+                      <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Горные велосипеды
+                          <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg></a>
+                        <ul class="nav-main__dropdown-categories">
+                          <li class="nav-main__back">
+                            <button class="nav-back-btn" type="button">
+                              <svg class="icon icon-arrow nav-back-btn__icon" aria-hidden="true">
+                                <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                              </svg><span class="nav-back-btn__text">Назад</span>
+                            </button>
+                          </li>
+                          <li class="nav-main__dropdown-categories-title subnav-title">Горные велосипеды</li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-main__dropdown-item"><a class="nav-main__dropdown-link nav-link" href="#">Двухподвесы
+                          <svg class="icon icon-arrow nav-main__arrow-icon" aria-hidden="true">
+                            <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                          </svg></a>
+                        <ul class="nav-main__dropdown-categories">
+                          <li class="nav-main__back">
+                            <button class="nav-back-btn" type="button">
+                              <svg class="icon icon-arrow nav-back-btn__icon" aria-hidden="true">
+                                <use xlink:href="static/svg/symbol/sprite.svg#arrow"></use>
+                              </svg><span class="nav-back-btn__text">Назад</span>
+                            </button>
+                          </li>
+                          <li class="nav-main__dropdown-categories-title subnav-title">Двухподвесы</li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                          <li class="nav-main__dropdown-categories-item"><a class="nav-main__dropdown-categories-link nav-link" href="#"><span>BerGaMont</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+            <div class="mobile-nav-panel__links-box">
+                  <ul class="top-links mobile-nav-panel__links">
+                    <li class="top-links__item"><a class="top-links__link" href="#">О нас</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Цены</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Услуги</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Наши работы</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Вопрос-ответ</a></li>
+                  </ul>
+                  <ul class="top-links mobile-nav-panel__links">
+                    <li class="top-links__item"><a class="top-links__link" href="#">Отзывы</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Статьи</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Новости</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Наши клиенты</a></li>
+                    <li class="top-links__item"><a class="top-links__link" href="#">Контакты</a></li>
+                  </ul>
+            </div>
+            <div class="mobile-nav-panel__contacts contacts">
+              <svg class="icon icon-phone contacts__icon" aria-hidden="true">
+                <use xlink:href="static/svg/symbol/sprite.svg#phone"></use>
+              </svg>
+              <ul class="contacts__list">
+                <li class="contacts__item"><a class="contacts__link" href="tel:0679998877">(067) 999 88 77</a></li>
+                <li class="contacts__item"><a class="contacts__link" href="tel:0508887766">(050) 888 77 66</a></li>
+                <li class="contacts__item"><a class="contacts__link" href="tel:0637776655">(063) 777 66 55</a></li>
+                <li class="contacts__item">
+                  <button class="contacts__btn" type="button">Перезвонить мне</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="mainScreen">
+      <div class="mainScreen__slider main-slider js-slider">
+        <div class="main-slider__item"> <a class="main-slider__link" href="#">
+            <picture class="main-slider__pic">
+              <source srcset="static/img/content/slide-480w.jpg, static/img/content/slide-480w-retina.jpg 2x" media="(max-width: 680px)">
+              <source srcset="static/img/content/slide.jpg, static/img/content/slide-retina.jpg 2x" media="(min-width: 681px)"><img src="static/img/content/slide.jpg" alt="Slide">
+            </picture></a></div>
+        <div class="main-slider__item"> <a class="main-slider__link" href="#">
+            <picture class="main-slider__pic">
+              <source srcset="static/img/content/slide.jpg, static/img/content/slide-retina.jpg 2x" media="(max-width: 480px)">
+              <source srcset="static/img/content/slide.jpg, static/img/content/slide-retina.jpg 2x" media="(min-width: 481px)"><img src="static/img/content/slide.jpg" alt="Slide">
+            </picture></a></div>
+      </div>
+      <div class="wrapper custom-slide-arrows"></div>
+    </main>
+    <script src="js/libs.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
